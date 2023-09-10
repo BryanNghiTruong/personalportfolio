@@ -31,7 +31,7 @@ export default function Projects() {
               </CCardText>
             </CCardBody>
             <CCardFooter className="personalWebsiteFooter">
-              <CButton color="light" variant="outline" href="https://github.com/BryanNghiTruong/personalportfolio" target="_blank">GitHub</CButton>
+              <CButton color="light" variant="outline" href="https://github.com/BryanNghiTruong/personalportfolio" target="_blank" rel="noreferrer">GitHub</CButton>
             </CCardFooter>
           </CCard>
         </CCol>
@@ -47,7 +47,7 @@ export default function Projects() {
               </CCardText>
             </CCardBody>
             <CCardFooter className="foodFinderFooter">
-              <CButton color="light" variant="outline" href="https://github.com/BryanNghiTruong/food-finder" target="_blank">GitHub</CButton>
+              <CButton color="light" variant="outline" href="https://github.com/BryanNghiTruong/food-finder" target="_blank" rel="noreferrer">GitHub</CButton>
             </CCardFooter>
           </CCard>
         </CCol>
@@ -64,7 +64,7 @@ export default function Projects() {
               </CCardText>
             </CCardBody>
             <CCardFooter className = "videoStreamingServiceFooter">
-              <CButton color="light" variant="outline" href="https://github.com/BryanNghiTruong/VidStreamer" target="_blank">GitHub</CButton>
+              <CButton color="light" variant="outline" href="https://github.com/BryanNghiTruong/VidStreamer" target="_blank" rel="noreferrer">GitHub</CButton>
             </CCardFooter>
           </CCard>
         </CCol>
