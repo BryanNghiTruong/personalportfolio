@@ -1,7 +1,7 @@
 import Navbar from "./navbar"
 import React from 'react'
 import { TypeAnimation } from "react-type-animation"
-import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai"
+import { AiFillGithub, AiFillLinkedin, AiFillCode } from "react-icons/ai"
 
 export default function Home(){
     return (
@@ -12,7 +12,7 @@ export default function Home(){
             <div className="typedAnimation">
                 <TypeAnimation
                     sequence={[
-                        "Hi there!",
+                        "Hi there!" ,
                         1000
                         ,
                         "I'm an aspiring developer.",
@@ -23,12 +23,14 @@ export default function Home(){
                     style={{fontSize: '2em'}}
                 ></TypeAnimation>
                 <div className = "logos">
-                    <a href="https://github.com/BryanNTruong" target="_blank">
+                    <a href="https://github.com/BryanNghiTruong" target="_blank">
                     <AiFillGithub />
                     </a>
                     <a href="https://www.linkedin.com/in/bryan-nghi-truong" target="_blank">
                     <AiFillLinkedin />
-                    </a>                              
+                    </a>              
+                    
+                                
                 </div>
             </div>
         </div>

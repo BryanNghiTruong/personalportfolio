@@ -1,20 +1,29 @@
 import React from 'react'
 import { CCardFooter, CCard, CCardImage, CCardBody, CCardText, CButton, CRow, CCol, CCardHeader} from '@coreui/react'
 import '@coreui/coreui/dist/css/coreui.min.css'
-
+import { GrPersonalComputer } from "react-icons/gr"
+import { FaBowlFood } from "react-icons/fa6"
+import { AiOutlineVideoCamera } from "react-icons/ai"
+import { CiMoneyBill } from "react-icons/ci"
+import { IconContext } from 'react-icons'
+import { MdOutlineComputer} from "react-icons/md"
+ 
 
 //Exports projects page.
 export default function Projects() {
+
+
   return (
     <div className="projects">
-      <h1>Projects</h1>
+      <h1>My Projects</h1>
       <div className = "cards">
+      
       <CRow xs={{ cols: 1, gutter: 4 }} md={{ cols: 3 }}>
         <CCol xs>
           <CCard className="text-center h-100">
             <CCardHeader className="personalWebsiteTitle">
-              <h3>Personal Website</h3>
-              </CCardHeader>
+              <h3><MdOutlineComputer /> Personal Website <MdOutlineComputer /></h3>
+            </CCardHeader>
             <CCardBody className="personalWebsiteBody">
               <CCardText>
                   This is my personal website/portfolio created in React. It's fully customizable, dynamic and changes can be made easily. 
@@ -22,30 +31,30 @@ export default function Projects() {
               </CCardText>
             </CCardBody>
             <CCardFooter className="personalWebsiteFooter">
-              <CButton color="info" variant="outline">GitHub</CButton>
+              <CButton color="light" variant="outline" href="https://github.com/BryanNghiTruong/personalportfolio" target="_blank">GitHub</CButton>
             </CCardFooter>
           </CCard>
         </CCol>
         <CCol>
           <CCard className="text-center h-100">
             <CCardHeader className="foodFinderTitle">
-              <h3>Food Finder</h3>
+              <h3><FaBowlFood /> Food Finder <FaBowlFood /></h3>
               </CCardHeader>
             <CCardBody className="foodFinderBody">
               <CCardText>
                 Food Finder is a web-app that provides a user random suggestions for dishes. If the user likes the dish, they "swipe right"
-                and saves recipes for that dish into a database. If they swipe left it'll provide a new suggestion.       
+                and it saves links to recipes for that dish into a database that users can later access. If they swipe left it'll provide a new suggestion.       
               </CCardText>
             </CCardBody>
             <CCardFooter className="foodFinderFooter">
-              <CButton color="info" variant="outline" href="https://github.com/BryanNghiTruong/food-finder" target='_blank'>GitHub</CButton>
+              <CButton color="light" variant="outline" href="https://github.com/BryanNghiTruong/food-finder" target='_blank'>GitHub</CButton>
             </CCardFooter>
           </CCard>
         </CCol>
         <CCol>
           <CCard className="text-center h-100" > 
               <CCardHeader className="videoStreamingServiceTitle">
-                <h3>Video Streaming Service</h3>
+                <h3><AiOutlineVideoCamera /> Video Streaming Service <AiOutlineVideoCamera /></h3>
               </CCardHeader>
             <CCardBody className="videoStreamingServiceBody">
               <CCardText>
@@ -55,14 +64,14 @@ export default function Projects() {
               </CCardText>
             </CCardBody>
             <CCardFooter className = "videoStreamingServiceFooter">
-              <CButton color="info" variant="outline">GitHub</CButton>
+              <CButton color="light" variant="outline">GitHub</CButton>
             </CCardFooter>
           </CCard>
         </CCol>
         <CCol>
           <CCard className="text-center h-100"> 
             <CCardHeader className="expenseSharingAppTitle">
-              <h3>Expense Sharing App</h3>
+              <h3><CiMoneyBill /> Expense Sharing App <CiMoneyBill /></h3>
               </CCardHeader>
             <CCardBody className="expenseSharingAppBody">
               <CCardText>
@@ -72,7 +81,7 @@ export default function Projects() {
               </CCardText>
             </CCardBody>
             <CCardFooter className="expenseSharingAppFooter">
-              <CButton color="info" variant="outline">GitHub</CButton>
+              <CButton color="light" variant="outline">GitHub</CButton>
             </CCardFooter>
           </CCard>
         </CCol>

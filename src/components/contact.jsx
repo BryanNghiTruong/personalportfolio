@@ -6,21 +6,29 @@ import '@coreui/coreui/dist/css/coreui.min.css'
 function ContactForm() {
   const [state, handleSubmit] = useForm("xgejyrnw");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return <p>Thanks for submitting!</p>;
   }
   return (
 
           <form onSubmit={handleSubmit} name="simple-contact-form" className="contactme"> 
             <label htmlFor="email" className = "labelDiv">
-              <h3>Please submit your inquiries here, Thanks!</h3>
+              <h1>Contact me here!</h1>
             </label>
+            <div className="nameDiv">
+            <input
+                  className = "inputName"
+                  id="name"
+                  type="name"
+                  placeholder="Name"
+              />
+            </div>
             <div className="emailDiv">
               <input
                   className="inputEmail"
                   id="email"
                   type="email" 
                   name="email"
-                  placeholder="Email"
+                  placeholder="Email Address"
                 />
                 <ValidationError 
                   prefix="Email" 
