@@ -23,14 +23,12 @@ export default function Home(){
                     style={{fontSize: '2em'}}
                 ></TypeAnimation>
                 <div className = "logos">
-                    <a href="https://github.com/BryanNghiTruong" target="_blank">
-                    <AiFillGithub />
+                    <a href="https://github.com/BryanNghiTruong" target="_blank" rel="noreferrer">
+                        <AiFillGithub />
                     </a>
-                    <a href="https://www.linkedin.com/in/bryan-nghi-truong" target="_blank">
-                    <AiFillLinkedin />
-                    </a>              
-                    
-                                
+                    <a href="https://www.linkedin.com/in/bryan-nghi-truong" target="_blank" rel="noreferrer">
+                        <AiFillLinkedin />
+                    </a>                          
                 </div>
             </div>
         </div>
