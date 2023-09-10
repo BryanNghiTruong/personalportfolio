@@ -129,10 +129,10 @@ h3 {
     color: #E0E1DD;
 }
 
-.expenseSharingAppTitle {
+/* .expenseSharingAppTitle {
     background-color: #487484;
     color: #E0E1DD;
-}
+} */
 
 .personalWebsiteBody {
     background-color: #F1F8E6;
@@ -155,12 +155,12 @@ h3 {
 
 }
 
-.expenseSharingAppBody {
+/* .expenseSharingAppBody {
     background-color: #F1F8E6;
     color: #363852;
     font-family: arial, Helvetica, sans-serif;
 
-}
+} */
 
 .personalWebsiteFooter {
     background-color: #AEC9A6;
@@ -175,9 +175,9 @@ h3 {
     background-color: #AEC9A6;
 }
 
-.expenseSharingAppFooter {
+/* .expenseSharingAppFooter {
     background-color: #AEC9A6;
-}
+} */
 
 .labelDiv {
     padding: 50px;

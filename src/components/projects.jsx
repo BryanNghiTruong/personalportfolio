@@ -69,7 +69,7 @@ export default function Projects() {
           </CCard>
         </CCol>
         <CCol>
-          <CCard className="text-center h-100"> 
+          {/* <CCard className="text-center h-100"> 
             <CCardHeader className="expenseSharingAppTitle">
               <h3><CiMoneyBill /> Expense Sharing App <CiMoneyBill /></h3>
               </CCardHeader>
@@ -83,7 +83,7 @@ export default function Projects() {
             <CCardFooter className="expenseSharingAppFooter">
               <CButton color="light" variant="outline">GitHub</CButton>
             </CCardFooter>
-          </CCard>
+          </CCard> */}
         </CCol>
         </CRow>
       </div>
